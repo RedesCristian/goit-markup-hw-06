@@ -810,3 +810,6 @@
 .text-area-user-comment:focus {
   border-color: #4d5ae5;
 }
+.footer-email-container {
+  display: block;
+}
