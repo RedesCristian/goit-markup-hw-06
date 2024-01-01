@@ -822,3 +822,7 @@
 .footer-email-container {
   display: block;
 }
+.check-box-area {
+  margin-bottom: 24px;
+}
+/*visually-hidden*/
