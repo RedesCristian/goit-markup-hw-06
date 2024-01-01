@@ -851,6 +851,7 @@
   fill: transparent;
 }
 .check-box-svg {
+  fill: transparent;
 }
 #user-privacy:checked + .check-box-svg {
   background-color: var(--ocean-color);
