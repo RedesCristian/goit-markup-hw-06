@@ -885,3 +885,6 @@
   display: flex;
   gap: 24px;
 }
+.e-mail {
+  color: transparent;
+}
