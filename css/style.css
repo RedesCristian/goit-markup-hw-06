@@ -853,7 +853,8 @@
 .check-box-svg {
   fill: transparent;
 }
-#user-privacy:checked > .privacy-pollicy {
+
+#user-privacy:checked + .privacy-policy {
   background-color: var(--ocean-color);
   fill: var(--cloud-color);
   border: none;
