@@ -881,3 +881,7 @@
 .check-box-svg:focus + #user-privacy {
   visibility: visible;
 }
+.footer-form-label {
+  display: flex;
+  gap: 24px;
+}
