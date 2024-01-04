@@ -827,9 +827,6 @@
   margin-bottom: 24px;
 }
 
-/*.visually-hidden {
-  visibility: hidden;
-}*/
 .check-box-label {
   display: block;
   font-size: 12px;
@@ -882,4 +879,14 @@
 .footer-form-label {
   display: flex;
   gap: 24px;
+}
+#user-privacy:checked + .privacy-policy span:first-child {
+  background-color: var(--ocean-color);
+  fill: var(--cloud-color);
+  border: none;
+}
+#user-privacy:checked + .check-box-label .privacy-policy {
+  background-color: var(--ocean-color);
+  fill: var(--cloud-color);
+  border: none;
 }
