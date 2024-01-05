@@ -853,6 +853,9 @@
 .check-box-svg {
   fill: transparent;
 }
+#user-privacy:focus + .check-box-label .privacy-policy {
+  outline: 2px solid #404bbf;
+}
 
 #user-privacy:checked + .check-box-label .privacy-policy {
   background-color: var(--ocean-color);
